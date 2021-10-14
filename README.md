@@ -6,6 +6,7 @@ A Linear regression model is trained to fit to this data and it is plotted to th
 Then the R sqaured value is calculated for the line using the formulas:
 
 R Squared = 1 - var(line)/var(mean)
+
 where var(line) is the variance of the points with respect to the line and var(mean) is the variance of the points with repsect to the mean.
 
 The output looks like this:
