@@ -11,4 +11,4 @@ where var(line) is the variance of the points with respect to the line and var(m
 
 The output looks like this:
 
-![output](https://user-images.githubusercontent.com/70687348/137383584-846b4f00-d61c-4f6a-b80c-a03390809d5c.png)
+![output](https://user-images.githubusercontent.com/70687348/137446165-13e88879-8735-4d90-8cca-1832b8c538af.png)
