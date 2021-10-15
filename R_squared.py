@@ -45,9 +45,10 @@ def distance(x,y,models):
     global var_line
     slope = models.coef_
     intercept = models.intercept_
-    val = abs(slope*x + intercept - y)
-    root = (1+slope**2)**0.5
+    val = (slope*x + intercept - y)**2
+    root = (1+slope**2)
     var_line += val/root
+
 for i in range(len(x)):
     distance(x[i],y[i],model)
 
